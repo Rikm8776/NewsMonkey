@@ -1,0 +1,58 @@
+{
+    "status": "ok",
+    "totalResults": 4,
+    "articles": [
+      {
+        "source": {
+          "id": "techcrunch",
+          "name": "TechCrunch"
+        },
+        "author": "Lauren Forristal",
+        "title": "Bye-bye bots: Altera's game-playing AI agents get backing from Eric Schmidt | TechCrunch",
+        "description": "Autonomous, AI-based players are coming to a gaming experience near you, and a new startup, Altera, is joining the fray to build this new guard of AI Research company Altera raised $9 million to build AI agents that can play video games alongside other player…",
+        "url": "https://techcrunch.com/2024/05/08/bye-bye-bots-alteras-game-playing-ai-agents-get-backing-from-eric-schmidt/",
+        "urlToImage": "https://techcrunch.com/wp-content/uploads/2024/05/Minecraft-keyart.jpg?resize=1200,720",
+        "publishedAt": "2024-05-08T15:14:57Z",
+        "content": "Autonomous, AI-based players are coming to a gaming experience near you, and a new startup, Altera, is joining the fray to build this new guard of AI agents.\r\nThe company announced Wednesday that it … [+6416 chars]"
+      },
+      {
+        "source": {
+          "id": "ign",
+          "name": "IGN"
+        },
+        "author": "Eric Song",
+        "title": "The Dell Intel Gamer Days Sale Starts Now: Big Savings on Alienware Gaming PCs, Laptops, Monitors, and Peripherals - IGN",
+        "description": "Some competitive AMD Ryzen gaming PCs included as well",
+        "url": "https://www.ign.com/articles/dell-intel-gamer-days-sale-starts-now-alienware-gaming-pcs-laptops",
+        "urlToImage": "https://assets-prd.ignimgs.com/2022/09/01/alienwarexbox-1662052068009.jpg?width=1280",
+        "publishedAt": "2022-09-01T17:37:12Z",
+        "content": "The Intel Gamer Days Event happens once a year, coinciding with the back to school season. This year, Dell is offering several newer models with Intel Alder Lake CPUs and RTX 30 series GPUs. These in… [+8260 chars]"
+      },
+      {
+        "source": {
+          "id": "ign",
+          "name": "IGN"
+        },
+        "author": "Eric Song",
+        "title": "Daily Deals: Save $50 Off the Microsoft Xbox Series X Gaming Console + Elite Series 2 Wireless Controller Bundle - IGN",
+        "description": null,
+        "url": "https://www.ign.com/articles/daily-deals-microsoft-xbox-series-x-gaming-console-elite-series-2-controller",
+        "urlToImage": "https://assets-prd.ignimgs.com/2022/09/01/090122-1662050863587.jpg?width=1280",
+        "publishedAt": "2022-09-01T17:05:23Z",
+        "content": "Check out the new hot daily deals for today, including a rare discount on an Xbox Series X gaming console bundle, $170 off the Apple AirPods Max headphones, $50 off the Bose SoundLik II portable Blue… [+12798 chars]"
+      },
+      {
+        "source": {
+          "id": "ign",
+          "name": "IGN"
+        },
+        "author": "Eric Song",
+        "title": "Deal Alert: New Dell XPS Intel Core i7-12700 Alder Lake RTX 3060 Ti Gaming PC for $1399 - IGN",
+        "description": "Future Proofed",
+        "url": "https://www.ign.com/articles/deal-alert-new-dell-xps-8950-intel-core-i7-12700-alder-lake-rtx-3060-ti-gaming-pc",
+        "urlToImage": "https://assets-prd.ignimgs.com/2022/09/01/dellxpsblacknew-1662051835101.jpg?width=1280",
+        "publishedAt": "2022-09-01T17:01:06Z",
+        "content": "Dell is offering a solid deal on the recently updated Dell XPS 8950 gaming PC. This year's Dell XPS model boasts more than just an aesthetic makeover. There are several quality of life and performanc… [+1428 chars]"
+      }
+    ]
+  }
