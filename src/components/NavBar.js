@@ -1,10 +1,8 @@
-import PropTypes from 'prop-types'
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 
 
 export class NavBar extends Component {
-    static propTypes = {}
 
     render() {
         return (
@@ -24,7 +22,7 @@ export class NavBar extends Component {
                                     <Link className="nav-link" to="/about">About</Link>
                                 </li>
                                 <li className="nav-item dropdown">
-                                    <a className="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <a className="nav-link dropdown-toggle" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         Category
                                     </a>
                                     <ul className="dropdown-menu">

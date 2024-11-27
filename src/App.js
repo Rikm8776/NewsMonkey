@@ -7,22 +7,37 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
+import LoadingBar from 'react-top-loading-bar'
 
 export default class App extends Component {
-  c = "rocky"
+  apiKey = process.env.REACT_APP_NEWS_API
+  state={
+    progress:0
+  }
+  progressHandler=(value)=>{
+    this.setState({
+      progress:value,
+    })
+  }
   render() {
     return (
       <div>
         <Router>
+        <LoadingBar
+        height={3}
+        color='#f11946'
+        progress={this.state.progress}
+        onLoaderFinished={() => this.setState({ progress: 0 })}
+      />
           <NavBar />
           <Routes>
-          <Route exact path="/" element={<News key="general"/>} />
-          <Route exact path="/business" element={<News key="business" category="business"/>} />
-          <Route exact path="/health" element={<News key="health" category="health"/>} />
-          <Route exact path="/science" element={<News key="science" category="science"/>} />
-          <Route exact path="/entertainment" element={<News key="entertainment" category="entertainment"/>} />
-          <Route exact path="/sports" element={<News key="sports" category="sports"/>} />
-          <Route exact path="/technology" element={<News key="technology" category="technology"/>} />
+          <Route exact path="/" element={<News apiKey={this.apiKey} progressHandler={this.progressHandler} key="general"/>} />
+          <Route exact path="/business" element={<News apiKey={this.apiKey} progressHandler={this.progressHandler} key="business" category="business"/>} />
+          <Route exact path="/health" element={<News apiKey={this.apiKey} progressHandler={this.progressHandler} key="health" category="health"/>} />
+          <Route exact path="/science" element={<News apiKey={this.apiKey} progressHandler={this.progressHandler} key="science" category="science"/>} />
+          <Route exact path="/entertainment" element={<News apiKey={this.apiKey} progressHandler={this.progressHandler} key="entertainment" category="entertainment"/>} />
+          <Route exact path="/sports" element={<News apiKey={this.apiKey} progressHandler={this.progressHandler} key="sports" category="sports"/>} />
+          <Route exact path="/technology" element={<News apiKey={this.apiKey} progressHandler={this.progressHandler} key="technology" category="technology"/>} />
           </Routes>
         </Router>
       </div>
